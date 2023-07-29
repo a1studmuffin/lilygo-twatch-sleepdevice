@@ -28,4 +28,3 @@ I designed and 3D printed a clip to attach the device to my clothes (included in
 - Every 2 minutes, the device wakes up and checks the accelerometer to determine if the wearer is on their back (assuming they've followed the above step).
 - After 4 minutes of the wearer being on their back, the device will vibrate once. If the user ignores the vibration, every 2 minutes another vibration will occur, increasing in severity. After 30 minutes the device will give up, in case the user has taken off the device.
 - The battery should last a few days per charge. To achieve this the ESP32 spends most of its time in deep sleep mode, and only turns on the display briefly when powered on, or when the user presses the button on the side of the watch.
-- 
