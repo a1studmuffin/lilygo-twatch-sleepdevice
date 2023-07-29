@@ -1,13 +1,13 @@
 # lilygo-twatch-sleepdevice
-Converts a LilyGo T-Watch 2020 V3 into a sleep therapy device for positional obstructive sleep apnea (POSA) and snoring
+Converts a [LilyGo T-Watch 2020 V3](https://www.lilygo.cc/products/t-watch-2020-v3) into a sleep therapy device for positional obstructive sleep apnea (POSA) and snoring. Monitors how long the wearer has been on their back, and vibrates periodically to encourage them to roll onto their side. Similar to [Somnibel](https://somnibel.eu) or [Night Shift](https://nightshifttherapy.com). Use at your own risk - this is an open source project and not clinically proven to be effective.
 
 ![SleepDevice](https://github.com/a1studmuffin/lilygo-twatch-sleepdevice/assets/6295625/cdb76fb6-1317-4a38-9692-305ed1191a97)
 
 ## Background
 
-I was recently diagnosed with positional obstructive sleep apnea (POSA) while sleeping on my back. I was presented with two treatment options: a low-tech solution (a tennis ball in a stocking tied to the upper back), or a high-tech solution (a commercial sleep therapy device worn as a collar which vibrates when the wearer is lying on their back). The second option appealed to my inner nerd, but the devices were around AUD400. So I invented a third treatment option: a DIY sleep therapy device!
+I was recently diagnosed with positional obstructive sleep apnea (POSA) while sleeping on my back. I was presented with two treatment options: a low-tech solution (a tennis ball in a stocking tied to the upper back), or a high-tech solution (a commercial sleep therapy device worn as a collar which vibrates when the wearer is lying on their back). The second option appealed to my inner nerd, but the devices were quite expensive. So I invented a third treatment option: a DIY sleep therapy device!
 
-I was going to roll my own hardware solution, but conveniently stumbled across the open source Lilygo T-Watch, which contained everything I needed: an ESP-based microcontroller, rechargeable battery, vibration motor and accelerometer. The OLED display was a lovely bonus, and the price was right at 60AUD. All I needed to do was remove the watch band and add a clip to attach it to the front of my shorts or t-shirt at night.
+I was going to roll my own hardware solution, but conveniently stumbled across the inexpensive open source Lilygo T-Watch, which contained everything I needed: an ESP-based microcontroller, rechargeable battery, vibration motor and accelerometer. The OLED display and slick housing was a lovely bonus. All I needed to do was write the software, remove the watch band and add a clip to attach it to my clothes at night.
 
 ## Installation
 
@@ -17,7 +17,7 @@ Follow the setup guide at https://github.com/Xinyuan-LilyGO/TTGO_TWatch_Library,
 
 ### Hardware
 
-The LilyGo T-Watch wrist strap can be easily removed. This leaves the wifi antenna dangling from the side of the watch, but this can easily be cut off or desoldered from the PCB.
+The LilyGo T-Watch wrist strap can be removed easily. This leaves the wifi antenna dangling from the side of the watch, but this can be cut off or desoldered from the PCB.
 
 I designed and 3D printed a clip to attach the device to my clothes (included in this repository), but I'm sure you can think of other solutions if you don't have a 3D printer available. I just glued the 3D printed clip onto the back of the device.
 
